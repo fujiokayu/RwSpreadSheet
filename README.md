@@ -25,7 +25,7 @@ if __name__ == '__main__':
 
     # append row
     write_values = ["test",datetime.now().strftime("%Y/%m/%d %H:%M:%S")]
-    spreadsheet.append_row(write_line)
+    spreadsheet.append_row(write_values)
 
     # write / read cell
     spreadsheet.write_cell('A1', 'updated')
