@@ -1,7 +1,7 @@
 # RwSpreadsheet
 
 This is the simple wrapper of [gspread](https://github.com/burnash/gspread) to read/write Google Spreadsheet.  
-May [gspread](https://github.com/burnash/gspread) is already enough, but just I need more simple way to initialyze. 
+[gspread](https://github.com/burnash/gspread) is already enough, but just I need more simple way to initialyze. 
 
 ## Getting Started
 
