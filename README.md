@@ -1,7 +1,7 @@
 # RwSpreadsheet
 
-This is the simple wrapper of [gspread](https://github.com/burnash/gspread) to read/write Google Spreadsheet.
-Maybe [gspread](https://github.com/burnash/gspread) is enough, but just I need more simple way to initialyze. 
+This is the simple wrapper of [gspread](https://github.com/burnash/gspread) to read/write Google Spreadsheet.  
+May [gspread](https://github.com/burnash/gspread) is already enough, but just I need more simple way to initialyze. 
 
 ## Getting Started
 
@@ -20,7 +20,7 @@ if __name__ == '__main__':
     # __init__
     spreadsheet = RwSpreadsheet(doc_id, json_path)
 
-    # if you want, you can change worksheet by name. Default is first sheet.
+    # if you want, you can change active worksheet by name. Default is first sheet.
     # spreadsheet.set_sheet("other_sheet")
 
     # append row
