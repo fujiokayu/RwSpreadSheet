@@ -24,8 +24,8 @@ if __name__ == '__main__':
     # spreadsheet.set_sheet("other_sheet")
 
     # append row
-    write_values = ["test",datetime.now().strftime("%Y/%m/%d %H:%M:%S")]
-    spreadsheet.append_row(write_values)
+    values = ["test",datetime.now().strftime("%Y/%m/%d %H:%M:%S")]
+    spreadsheet.append_row(values)
 
     # write / read cell
     spreadsheet.write_cell('A1', 'updated')
